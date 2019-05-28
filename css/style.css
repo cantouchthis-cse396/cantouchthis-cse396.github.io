@@ -43,7 +43,8 @@
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/bootstrap.css');
 /*----font awesome -------*/
-@import url('../fonts/font-awesome/css/font-awesome.min.css');
+/*----font awesome ---
+@import url('../fonts/font-awesome/css/font-awesome.min.css');----*/
 /*----revolution-slider---*/
 @import url('../vendor/revolution/settings.css');
 @import url('../vendor/revolution/layers.css');
@@ -157,16 +158,18 @@ animation-delay: .8s;
   Global Settings
 ====================================================================
 
- ***/
+
 
  @font-face {
   font-family: 'font-awesome';
   src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
- }
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), 
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), 
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), 
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); 
+ } 
+ 
+ --***/
  body {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
